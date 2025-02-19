@@ -86,6 +86,18 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
 11. **Visit**
     Your ```APP_URL``` in this case the default should be ```http://127.0.0.1:8000```
 
+## Login Credentials (For Testing)
+
+Use the following credentials to log in to the application:
+
+- **Danish:**  
+  - Email: `danish@gmail.com`  
+  - Password: `12345678`
+
+- **Afiq:**  
+  - Email: `afiq@gmail.com`  
+  - Password: `12345678`
+
 ## Usage
 
 1. **Register or Log In** To access the web application.
