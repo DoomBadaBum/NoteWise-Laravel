@@ -48,7 +48,7 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
    ```bash
    composer install
    ```
-4. **Create a copy of ```.env.example``` as ```.env```
+4. **Create a copy of ```.env.example``` as ```.env```**
 5. **Make changes in the ```.env``` file**
    - **Update the database credentials in the ```bash .env``` file:**
    ```
