@@ -47,7 +47,9 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
 3. **Install Composer dependencies**:
    ```bash
    composer install
-4. **Make changes in the ```.env``` file**
+   ```
+4. **Create a copy of ```.env.example``` as ```.env```
+5. **Make changes in the ```.env``` file**
    - **Update the database credentials in the ```bash .env``` file:**
    ```
    DB_CONNECTION=mysql
@@ -58,17 +60,21 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
    DB_PASSWORD=
    ```
    
-   - **Set the ```APP_URL``` if needed ```(e.g., http://127.0.0.1:8000)```**.
+   - **Dont forget to set the ```APP_URL``` if needed. For example:```APP_URL=http://127.0.0.1:8000```** at the ```.env```.
 
-5. **Run migrations (and optionally seed):**
+6. **Generate application key:**
+   ```
+   php artisan key:generate
+   ```
+8. **Run migrations (and optionally seed):**
    ```
    php artisan migrate --seed
    ```
-7. **Install Node dependencies and compile assets:**
+9. **Install Node dependencies and compile assets:**
    ```
    npm install
    ```
-9. **To serve the application you need to run 2 console**
+10. **To serve the application you need to run 2 console**
    - **First console:**
    ```
    php artisan serve
@@ -77,7 +83,7 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
    ```
    npm run dev
    ```
-10. **Visit**
+11. **Visit**
     Your ```APP_URL``` in this case the default should be ```http://127.0.0.1:8000```
 
 ## Usage
