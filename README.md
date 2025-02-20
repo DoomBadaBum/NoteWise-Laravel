@@ -33,7 +33,7 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
 
 - PHP >= 8.0
 - Composer
-- XAMPP Versopm 3.3
+- XAMPP Version 3.3
 - Laravel Version 11.X
 - MySQL (or any database supported by Laravel)
 - Node.js & npm (for Vite asset compilation)
@@ -44,12 +44,13 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
 
 1. **Clone the repository**
 2. **Put the ```NoteWise-Laravel``` project into ```xampp\htdocs```**
-3. **Install Composer dependencies**:
+3. **Open XAMPP Control Panel and start the** ```Apache``` **and** ```MySQL``` **services.**
+4. **Install Composer dependencies**:
    ```bash
    composer install
    ```
-4. **Create a copy of ```.env.example``` as ```.env```**
-5. **Make changes in the ```.env``` file**
+5. **Create a copy of ```.env.example``` as ```.env```**
+6. **Make changes in the ```.env``` file**
    - **Update the database credentials in the ```bash .env``` file:**
    ```
    DB_CONNECTION=mysql
@@ -62,7 +63,7 @@ NoteWise-Laravel is a simple note-taking web application built with the [Laravel
    
    - **Dont forget to set the ```APP_URL``` if needed. For example:```APP_URL=http://127.0.0.1:8000```** at the ```.env```.
 
-6. **Generate application key:**
+7. **Generate application key:**
    ```
    php artisan key:generate
    ```
