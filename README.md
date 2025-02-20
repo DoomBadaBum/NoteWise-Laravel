@@ -1,6 +1,6 @@
 # NoteWise-Laravel
 
-NoteWise-Laravel is a simple note-taking web application built with the [Laravel](https://laravel.com/) framework. Users can register/login, create/edit notes, add remarks, filter notes, and manage their own personal note list. This project demonstrates core Laravel features such as MVC structure, Eloquent relationships, authentication, Blade templating, and more.
+NoteWise-Laravel is a simple note-taking web application built with the [Laravel](https://laravel.com/) framework. Users can register/login, create/edit notes, add remarks, filter notes, and manage their own personal note list. This project demonstrates features such as MVC structure, Eloquent relationships, authentication, and Blade templating.
 
 ---
 
